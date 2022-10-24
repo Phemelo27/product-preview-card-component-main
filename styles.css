@@ -18,6 +18,7 @@ main {
 	margin: 2rem auto;
 	background-color: hsl(0, 0%, 100%);
 	width: 25rem;
+	/*height: 90%;*/
 	border-radius: 0.5em;
 }
 .img-container {
@@ -26,4 +27,55 @@ main {
 	height: 17.5rem;
 	background-image: url(images/image-product-mobile.jpg);
 	border-radius: 0.5em 0.5em 0 0;
+}
+h1,
+h2,
+p {
+	margin: 0 1rem;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: hsl(228, 12%, 48%);
+}
+
+h2 {
+	font-family: 'Fraunces', serif;
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: hsl(228, 12%, 48%);
+}
+
+article {
+	display: flex;
+}
+
+article > p:nth-of-type(1) {
+	font-family: 'Fraunces', serif;
+	color: hsl(158, 36%, 37%);
+	font-size: 2rem;
+}
+
+article > p:nth-of-type(2) {
+	text-decoration: line-through;
+}
+
+
+button {
+	width: 80%;
+	padding: .8em 4em;
+}
+
+button {
+	background-color: hsl(158, 36%, 37%);
+	border: 1px solid hsl(158, 36%, 37%);
+	border-radius: 0.2rem;
+	color: hsl(0, 0%, 100%);
 }
