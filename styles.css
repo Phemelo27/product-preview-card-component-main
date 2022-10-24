@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+}
+body {
+	margin: 0;
+	height: 100vh;
+	background-color: hsl(30, 38%, 92%);
+	overflow: hidden;
+}
+
+main {
+	margin: 2rem auto;
+	background-color: hsl(0, 0%, 100%);
+	width: 25rem;
+	border-radius: 0.5em;
+}
+.img-container {
+	background-size: 25rem;
+	width: 25rem;
+	height: 17.5rem;
+	background-image: url(images/image-product-mobile.jpg);
+	border-radius: 0.5em 0.5em 0 0;
+}
