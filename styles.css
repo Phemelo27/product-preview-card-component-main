@@ -11,22 +11,22 @@ body {
 	margin: 0;
 	height: 100vh;
 	background-color: hsl(30, 38%, 92%);
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 main {
 	margin: 2rem auto;
 	background-color: hsl(0, 0%, 100%);
 	width: 25rem;
-	/*height: 90%;*/
-	border-radius: 0.5em;
+	border-radius: 0.8em;
+	height: 560px;
 }
 .img-container {
 	background-size: 25rem;
 	width: 25rem;
 	height: 17.5rem;
 	background-image: url(images/image-product-mobile.jpg);
-	border-radius: 0.5em 0.5em 0 0;
+	border-radius: 0.8em 0.8em 0 0;
 }
 h1,
 h2,
@@ -40,21 +40,21 @@ h1 {
 	font-size: 1rem;
 	text-transform: uppercase;
 	color: hsl(228, 12%, 48%);
+	letter-spacing: 0.2rem;
+	margin-top: 1.5em;
 }
 
 h2 {
 	font-family: 'Fraunces', serif;
 	font-weight: 700;
 	font-size: 2.5rem;
+	line-height: 2.5rem;
+	margin-top: 0.5rem;
 }
 
 p {
 	font-family: 'Montserrat', sans-serif;
 	color: hsl(228, 12%, 48%);
-}
-
-article {
-	display: flex;
 }
 
 article > p:nth-of-type(1) {
@@ -68,6 +68,14 @@ article > p:nth-of-type(2) {
 }
 
 
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
 button {
 	width: 80%;
 	padding: .8em 4em;
@@ -76,6 +84,23 @@ button {
 button {
 	background-color: hsl(158, 36%, 37%);
 	border: 1px solid hsl(158, 36%, 37%);
-	border-radius: 0.2rem;
+	border-radius: 0.5em;
 	color: hsl(0, 0%, 100%);
+	font-family: "Montserrat", sans-serif;
+}
+
+.description {
+	margin-top: 1rem;
+	/*word-break: break-word;*/
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.cart-icon {
+	width: 1em;
+	margin-right: 1em;
 }
