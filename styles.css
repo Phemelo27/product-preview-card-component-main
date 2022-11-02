@@ -20,6 +20,9 @@ main {
 	width: 25rem;
 	border-radius: 0.8em;
 	height: 560px;
+	display: flex;
+	flex-direction: column;
+
 }
 .img-container {
 	background-size: 25rem;
@@ -103,4 +106,26 @@ button {
 .cart-icon {
 	width: 1em;
 	margin-right: 1em;
+}
+
+.checkout-btn:hover {
+	background-color: hsl(158, 36%, 20%);
+	/*hsl(158, 36%, 37%)*/
+}
+
+/*Media Queries and Large Screen Display*/
+
+@media (min-width: 768px) {
+	main {
+		/*display: flex;*/
+		flex-direction: row;
+		width: 55rem;
+	}
+	.img-container {
+		background-size: 35rem;
+		width: 55rem;
+		height: 100%;
+		background-image: url(images/image-product-desktop.jpg);
+		border-radius: 0.8em 0 0 0.8em;
+	}
 }
