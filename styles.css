@@ -40,7 +40,7 @@ p {
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	font-size: 1rem;
+	font-size: 0.85rem;
 	text-transform: uppercase;
 	color: hsl(228, 12%, 48%);
 	letter-spacing: 0.2rem;
@@ -94,7 +94,8 @@ button {
 
 .description {
 	margin-top: 1rem;
-	/*word-break: break-word;*/
+	line-height: 1.5rem;
+	line-break: 1.5rem;
 }
 
 .price {
@@ -128,4 +129,18 @@ button {
 		background-image: url(images/image-product-desktop.jpg);
 		border-radius: 0.8em 0 0 0.8em;
 	}
+}
+
+/* LIne Breaks */
+.line-break1::before {
+	content: "\a";
+	white-space: pre;
+}
+.line-break2::before {
+	content: "\a";
+	white-space: pre;
+}
+.line-break3::before {
+	content: "\a";
+	white-space: pre;
 }
