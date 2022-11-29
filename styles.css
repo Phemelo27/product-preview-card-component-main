@@ -120,12 +120,13 @@ button {
 	main {
 		/*display: flex;*/
 		flex-direction: row;
-		width: 55rem;
+		width: 40rem;
+		height: 30rem;
 	}
 	.img-container {
-		background-size: 35rem;
-		width: 55rem;
-		height: 100%;
+		background-size: 20rem;
+		width: 30rem;
+		height: 30rem;
 		background-image: url(images/image-product-desktop.jpg);
 		border-radius: 0.8em 0 0 0.8em;
 	}
